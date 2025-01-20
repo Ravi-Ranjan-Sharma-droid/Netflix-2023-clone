@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    /* cursor: url(Assets/images/neuralpony\ \(3\).png), auto; */
+
+}
+
+body {
+    background: black;
+}
+
+.main {
+    background-image: url(Assets/images/Netflix-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    top: 0;
+    background: #000;
+    position: absolute;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: poppins;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: larger;
+    position: relative;
+    /* gap: 5px; */
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background: rgb(55, 54, 54);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.main input{
+    padding: 9px 60px 9px 11px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgb(22, 22, 22, 0.5);
+    font-weight: 600;
+    border: 1px solid rgba(22, 22, 22, 0.8);
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white
+}
